@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
  function Contact() {
     return (
-        <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0">
+        <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0 ">
             <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div className="mt-8 overflow-hidden">
                     <div className="grid grid-cols-1 md:grid-cols-2">
@@ -38,7 +38,7 @@ import { Link } from "react-router-dom";
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    Acme Inc, Street, State, Postal Code
+                                    Molyko Inc, Street, State, Postal Code
                                 </div>
                             </div>
 
@@ -60,7 +60,7 @@ import { Link } from "react-router-dom";
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    +44 1234567890
+                                    +237 650489446
                                 </div>
                             </div>
 
@@ -82,7 +82,7 @@ import { Link } from "react-router-dom";
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    info@acme.org
+                                    clovistumasang82@gmail.com
                                 </div>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ import { Link } from "react-router-dom";
 
                             <button
                                 type="submit"
-                                className="md:w-32 bg-orange-700 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-orange-600 transition ease-in-out duration-300"
+                                className="md:w-32  hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-orange-600 transition ease-in-out duration-300 bg-cyan-500 shadow-lg shadow-cyan-500/50"
                             >
                                 Submit
                             </button>
