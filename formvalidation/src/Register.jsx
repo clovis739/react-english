@@ -286,7 +286,7 @@ const Register = () => {
             //clear state and controlled inputs
             //need value attrib on inputs for this
             setUser('');
-            setPwd('');
+            setPwd('')
             setMatchPwd('');
         } catch (err) {
             if (!err?.response) {
